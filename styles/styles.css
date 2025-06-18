@@ -128,3 +128,50 @@
 	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 }
+
+/******************************/
+/*     TECHNOLOGY SECTION     */
+/******************************/
+
+.section-technology {
+	margin-bottom: 13.5rem;
+	position: relative;
+}
+
+.technology-text-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2.4rem;
+}
+
+.technology-text-box span {
+	position: relative;
+}
+
+.technology-text-box span::after {
+	display: block;
+	content: url('../assets/images/pattern-circle.png');
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.technology-description {
+	font-size: 2rem;
+	line-height: 1.1;
+	letter-spacing: -1px;
+	font-family: 'Inter', sans-serif;
+	color: var(--neutral-700);
+}
+
+.technology-img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.tech-icons {
+	position: absolute;
+	top: 70%;
+	left: 47%;
+}

@@ -2,14 +2,6 @@
 
 
 
-
-
-
-Not your average book club
-
-Connect with a community that speaks your language - from Python to TypeScript and
-everything in between. Our discussions blend technical depth with practical applications.
-
 Your tech reading journey
 
 1
