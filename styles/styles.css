@@ -134,7 +134,7 @@
 /******************************/
 
 .section-technology {
-	margin-bottom: 13.5rem;
+	margin-bottom: 12rem;
 	position: relative;
 }
 
@@ -181,7 +181,7 @@
 /******************************/
 
 .section-journey {
-	margin-bottom: 13.5rem;
+	margin-bottom: 12rem;
 }
 
 .journey {
@@ -207,13 +207,14 @@
 	display: grid;
 	gap: 4.8rem;
 	justify-content: center;
+	padding: 0 3.2rem;
 }
 
 .step {
 	display: flex;
 	flex-direction: column;
 	gap: 2.4rem;
-	width: 22.65rem;
+	max-width: 22.65rem;
 }
 
 .step p {
@@ -255,5 +256,109 @@
 	right: -15%;
 	width: 68.4rem;
 	z-index: 1;
+	opacity: 0.7;
+}
+
+/**********************************/
+/*     	MEMBERSHIP SECTION	      */
+/**********************************/
+
+.section-membership {
+	margin-bottom: 12rem;
+	display: flex;
+	flex-direction: column;
+	gap: 6.4rem;
+	align-items: center;
+}
+
+.options-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 2.4rem;
+}
+
+.option {
+	padding: 2.4rem;
+	border: 1px solid var(--neutral-200);
+	border-radius: 8px;
+}
+
+.option-name {
+	font-size: 2.4rem;
+	font-weight: 600;
+	line-height: 1.1;
+	letter-spacing: -1px;
+	font-family: 'Martian Mono', sans-serif;
+	color: var(--neutral-900);
+	margin-bottom: 2.4rem;
+}
+
+.option-price {
+	font-size: 3.4rem;
+	font-family: 'Martian Mono', sans-serif;
+	font-weight: 600;
+	line-height: 1.3;
+	letter-spacing: -2px;
+	color: var(--neutral-900);
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+	margin-bottom: 2.4rem;
+}
+
+.option-price span {
+	color: var(--neutral-700);
+	font-family: 'Inter', sans-serif;
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 1.4;
+	letter-spacing: -0.5px;
+}
+
+.option-list {
+	list-style: none;
+	margin: 2.4rem 0;
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+}
+
+.option-list-item {
+	display: flex;
+	gap: 1.2rem;
+	align-items: center;
+}
+
+.option-list-item img {
+	height: 2.4rem;
+	width: 2.4rem;
+}
+
+.option-list-item span {
+	color: var(--neutral-700);
+	font-size: 2rem;
+	line-height: 1.4;
+	letter-spacing: -0.5px;
+	font-family: 'Inter', sans-serif;
+}
+
+.highlight {
+	background-color: var(--neutral-100);
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.highlight .btn {
+	z-index: 2;
+}
+
+.highlight::after {
+	content: url('../assets/images/pattern-glow.svg');
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -80%;
+	z-index: -1;
 	opacity: 0.7;
 }
