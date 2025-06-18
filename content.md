@@ -1,21 +1,3 @@
-
-
-
-
-Your tech reading journey
-
-1
-Choose your membership tier
-
-2
-Get your monthly book selection
-
-3
-Join our discussion forums
-
-4
-Attend exclusive meetups
-
 Membership options
 
 Starter

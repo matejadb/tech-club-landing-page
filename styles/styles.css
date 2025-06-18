@@ -3,7 +3,8 @@
 /************************/
 
 .section-hero {
-	background-image: url('../assets/images/pattern-light-bg.svg');
+	background-image: url('../assets/images/pattern-light-bg.svg'),
+		var(--background-gradient);
 	padding: 3.2rem 0 8rem 0;
 	position: relative;
 	overflow: hidden;
@@ -28,8 +29,8 @@
 	margin-top: 2.4rem;
 	margin-bottom: 3.2rem;
 	font-size: 2rem;
-	line-height: 1.1;
-	letter-spacing: -1px;
+	line-height: 1.5;
+	letter-spacing: -0.5px;
 	font-family: 'Inter', sans-serif;
 	color: var(--neutral-700);
 }
@@ -76,7 +77,6 @@
 	right: 0;
 	transform: translateX(25%);
 	width: 68.4rem;
-	z-index: -1;
 	opacity: 0.7;
 }
 
@@ -154,13 +154,13 @@
 	content: url('../assets/images/pattern-circle.png');
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: -5%;
 }
 
 .technology-description {
 	font-size: 2rem;
-	line-height: 1.1;
-	letter-spacing: -1px;
+	line-height: 1.5;
+	letter-spacing: -0.5px;
 	font-family: 'Inter', sans-serif;
 	color: var(--neutral-700);
 }
@@ -173,5 +173,87 @@
 .tech-icons {
 	position: absolute;
 	top: 70%;
-	left: 47%;
+	left: 47.2%;
+}
+
+/******************************/
+/*     	JOURNEY SECTION	      */
+/******************************/
+
+.section-journey {
+	margin-bottom: 13.5rem;
+}
+
+.journey {
+	max-width: 130rem;
+	margin: 0 auto;
+	background-image: url('../assets/images/pattern-light-bg.svg'),
+		var(--background-gradient);
+	display: flex;
+	flex-direction: column;
+	padding: 8rem 0;
+	gap: 6.4rem;
+	align-items: center;
+	position: relative;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.journey h2 {
+	text-align: center;
+}
+
+.step-container {
+	display: grid;
+	gap: 4.8rem;
+	justify-content: center;
+}
+
+.step {
+	display: flex;
+	flex-direction: column;
+	gap: 2.4rem;
+	width: 22.65rem;
+}
+
+.step p {
+	font-family: 'Martian Mono', sans-serif;
+	font-size: 1.8rem;
+	line-height: 1.3;
+	letter-spacing: -1px;
+	font-weight: 600;
+}
+
+.number {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.number p {
+	font-size: 1.8rem;
+	line-height: 1.3;
+	letter-spacing: -1px;
+	font-family: 'Martian Mono', sans-serif;
+	font-weight: 600;
+	border: 2px solid var(--neutral-900);
+	height: 4rem;
+	width: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+}
+
+.hide {
+	opacity: 0;
+}
+
+.journey-glow {
+	position: absolute;
+	top: 15%;
+	right: -15%;
+	width: 68.4rem;
+	z-index: 1;
+	opacity: 0.7;
 }
