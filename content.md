@@ -1,11 +1,9 @@
-200+ developers joined already
 
-Read together, grow together
 
-Monthly curated tech reads selected by industry experts
-Virtual and in-person meetups for deep-dive discussions
-Early access to new tech book releases
-Author Q&A sessions with tech thought leaders
+
+
+
+
 
 Not your average book club
 
