@@ -1,0 +1,66 @@
+/************************/
+/* 	   BELOW 1504px     */
+/************************/
+
+@media (max-width: 94em) {
+	/* .heading-primary {
+		font-size: 5rem;
+	}
+
+	.heading-secondary {
+		font-size: 3.8rem;
+	} */
+	html {
+		/* 9px / 16px = 56.25% */
+		font-size: 56.25%;
+	}
+}
+
+/************************/
+/* 	   BELOW 1344px     */
+/************************/
+
+@media (max-width: 84em) {
+	.heading-primary {
+		font-size: 5rem;
+	}
+
+	.heading-secondary {
+		font-size: 4.4rem;
+	}
+}
+
+@media (max-width: 75em) {
+	html {
+		font-size: 50%;
+	}
+}
+
+/********************************************/
+/* 	        BELOW 1072px (Tablets)           */
+/********************************************/
+/* 
+@media (max-width: 67em) {
+	.grid--2-cols {
+		grid-template-columns: 1fr;
+	}
+
+	.section-hero {
+		padding: 3.2rem 3.2rem 8rem 3.2rem;
+	}
+
+	.hero {
+		width: 60%;
+		margin: 0;
+	}
+
+	.hero-content {
+		margin: 0 auto;
+		gap: 6.4rem;
+	}
+
+	.hero-img-box {
+		text-align: center;
+	}
+}
+ */
