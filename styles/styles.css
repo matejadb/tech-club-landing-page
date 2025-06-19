@@ -185,6 +185,19 @@
 	left: 47.2%;
 }
 
+.technology-img-box span {
+	position: relative;
+}
+
+.technology-img-box span::after {
+	display: block;
+	content: url('../assets/images/logos-tech.svg');
+	position: absolute;
+	bottom: 5%;
+	left: -15%;
+	width: 40%;
+}
+
 /******************************/
 /*     	JOURNEY SECTION	      */
 /******************************/
