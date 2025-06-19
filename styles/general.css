@@ -85,6 +85,10 @@
 	box-sizing: border-box;
 }
 
+*:focus {
+	outline: 2px solid var(--neutral-700);
+}
+
 html {
 	font-size: 62.5%;
 }
