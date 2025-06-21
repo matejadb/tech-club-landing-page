@@ -26,7 +26,21 @@
 	}
 
 	.heading-secondary {
-		font-size: 4.4rem;
+		font-size: 3.8rem;
+	}
+
+	.technology-img-box span {
+		position: relative;
+	}
+
+	.technology-img-box span::after {
+		left: 70%;
+	}
+
+	.technology-text-box span::after {
+		right: -30%;
+		top: -28%;
+		transform: scale(0.7);
 	}
 }
 
@@ -34,33 +48,167 @@
 	html {
 		font-size: 50%;
 	}
+
+	.technology-text-box span::after {
+		right: -40%;
+		top: -38%;
+		transform: scale(0.6);
+	}
 }
 
 /********************************************/
-/* 	        BELOW 1072px (Tablets)           */
+/* 	        BELOW 976px (Tablets)           */
 /********************************************/
-/* 
-@media (max-width: 67em) {
+
+@media (max-width: 61em) {
 	.grid--2-cols {
+		grid-template-columns: 1fr;
+	}
+
+	.grid--4-cols {
 		grid-template-columns: 1fr;
 	}
 
 	.section-hero {
 		padding: 3.2rem 3.2rem 8rem 3.2rem;
+		margin-bottom: 8rem;
 	}
 
-	.hero {
-		width: 60%;
-		margin: 0;
+	.glow {
+		top: 70%;
 	}
 
 	.hero-content {
-		margin: 0 auto;
 		gap: 6.4rem;
 	}
 
-	.hero-img-box {
-		text-align: center;
+	.section-features,
+	.section-technology {
+		padding: 0 3.2rem;
+		margin-bottom: 8rem;
+	}
+
+	.section-features .container,
+	.section-technology .container {
+		gap: 4rem;
+	}
+
+	.features-text-box {
+		grid-row: 1;
+	}
+
+	.section-journey {
+		padding: 8rem 3.2rem 8rem 3.2rem;
+		margin-bottom: 8rem;
+	}
+
+	.journey-glow {
+		top: 45%;
+		right: -33%;
+	}
+
+	.section-membership {
+		padding: 0 3.2rem;
+		margin-bottom: 8rem;
+	}
+
+	.options-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.number img {
+		display: none;
+	}
+
+	.section-testimonial {
+		padding: 0 3.2rem;
+	}
+
+	.testimonial {
+		align-items: flex-start;
+	}
+
+	.testimonial-content {
+		text-align: left;
+		align-items: flex-start;
+	}
+
+	.footer {
+		padding: 6.4rem 3.2rem 0 3.2rem;
 	}
 }
- */
+
+/********************************************/
+/* 			     BELOW 544px (Phones)   	 	    */
+/********************************************/
+
+@media (max-width: 34em) {
+	.btn,
+	.btn:link,
+	.btn:visited {
+		padding: 2.4rem 1.6rem;
+	}
+
+	.section-hero {
+		padding: 2.4rem 1.6rem 8rem 1.6rem;
+		margin-bottom: 6.4rem;
+	}
+
+	.hero {
+		gap: 4.8rem;
+	}
+
+	.hero-content {
+		gap: 6.4rem;
+	}
+
+	.cta-hero {
+		align-items: center;
+	}
+
+	.section-features,
+	.section-technology {
+		padding: 0 1.6rem;
+		margin-bottom: 6.4rem;
+	}
+
+	.section-features .container,
+	.section-technology .container {
+		gap: 4rem;
+	}
+
+	.features-text-box {
+		grid-row: 1;
+	}
+
+	.section-journey {
+		padding: 6.4rem 1.6rem;
+		margin-bottom: 6.4rem;
+	}
+
+	.technology-img-box span::after {
+		display: none;
+	}
+
+	.section-membership {
+		padding: 0 1.6rem;
+		margin-bottom: 6.4rem;
+	}
+
+	.options-container {
+		grid-template-columns: 1fr;
+		gap: 2.4rem;
+	}
+
+	.section-testimonial {
+		padding: 0 1.6rem;
+	}
+
+	.testimonial-content {
+		text-align: left;
+	}
+
+	.footer {
+		padding: 4.8rem 1.6rem 0 1.6rem;
+	}
+}
