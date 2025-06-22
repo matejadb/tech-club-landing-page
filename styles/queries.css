@@ -29,12 +29,13 @@
 		font-size: 3.8rem;
 	}
 
-	.technology-img-box span {
+	/* .technology-img-box picture {
 		position: relative;
-	}
+	} */
 
-	.technology-img-box span::after {
+	.technology-img-box picture::after {
 		left: 70%;
+		transform: scale(0.9);
 	}
 
 	.technology-text-box span::after {
@@ -186,7 +187,7 @@
 		margin-bottom: 6.4rem;
 	}
 
-	.technology-img-box span::after {
+	.technology-img-box picture::after {
 		display: none;
 	}
 

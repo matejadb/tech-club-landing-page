@@ -185,11 +185,12 @@
 	left: 47.2%;
 }
 
-.technology-img-box span {
+.technology-img-box picture {
 	position: relative;
+	overflow-x: hidden;
 }
 
-.technology-img-box span::after {
+.technology-img-box picture::after {
 	display: block;
 	content: url('../assets/images/logos-tech.svg');
 	position: absolute;
