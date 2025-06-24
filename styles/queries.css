@@ -3,13 +3,6 @@
 /************************/
 
 @media (max-width: 94em) {
-	/* .heading-primary {
-		font-size: 5rem;
-	}
-
-	.heading-secondary {
-		font-size: 3.8rem;
-	} */
 	html {
 		/* 9px / 16px = 56.25% */
 		font-size: 56.25%;
@@ -28,10 +21,6 @@
 	.heading-secondary {
 		font-size: 3.8rem;
 	}
-
-	/* .technology-img-box picture {
-		position: relative;
-	} */
 
 	.technology-img-box picture::after {
 		left: 70%;
@@ -84,7 +73,9 @@
 	}
 
 	.section-features,
-	.section-technology {
+	.section-technology,
+	.section-membership,
+	.section-testimonial {
 		padding: 0 3.2rem;
 		margin-bottom: 8rem;
 	}
@@ -108,21 +99,12 @@
 		right: -33%;
 	}
 
-	.section-membership {
-		padding: 0 3.2rem;
-		margin-bottom: 8rem;
-	}
-
 	.options-container {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
 	.number img {
 		display: none;
-	}
-
-	.section-testimonial {
-		padding: 0 3.2rem;
 	}
 
 	.testimonial {
@@ -168,7 +150,9 @@
 	}
 
 	.section-features,
-	.section-technology {
+	.section-technology,
+	.section-membership,
+	.section-testimonial {
 		padding: 0 1.6rem;
 		margin-bottom: 6.4rem;
 	}
@@ -176,10 +160,6 @@
 	.section-features .container,
 	.section-technology .container {
 		gap: 4rem;
-	}
-
-	.features-text-box {
-		grid-row: 1;
 	}
 
 	.section-journey {
@@ -191,22 +171,9 @@
 		display: none;
 	}
 
-	.section-membership {
-		padding: 0 1.6rem;
-		margin-bottom: 6.4rem;
-	}
-
 	.options-container {
 		grid-template-columns: 1fr;
 		gap: 2.4rem;
-	}
-
-	.section-testimonial {
-		padding: 0 1.6rem;
-	}
-
-	.testimonial-content {
-		text-align: left;
 	}
 
 	.footer {

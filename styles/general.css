@@ -1,5 +1,4 @@
 /* 
-
 --- 01 TYPOGRAPHY SYSTEM
 	-FONT SIZE SYSTEM (px):
 	14 / 16 / 18 / 20 / 24 / 34 / 38 / 50 / 62 
@@ -38,10 +37,6 @@
 		 --background-gradient: linear-gradient(var(--light-salmon-50), var(--neutral-100))
      --text-gradient: linear-gradient(107deg, #ff9a6D -11.37%, #062630 61.84%)
      --gradient: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%)
-
---- 05 SHADOWS
-		
-		 
 
 --- 06 BORDER-RADIUS (px)
   0 / 4 / 6 / 8 / 10 / 12 / 16 / 20 / 24 / 999
@@ -144,14 +139,21 @@ html {
 .btn,
 .btn:link,
 .btn:visited {
+	font-family: 'Martian Mono', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 1.3;
+	letter-spacing: -1px;
 	text-transform: uppercase;
+	text-decoration: none;
 	border-radius: 8px;
 	padding: 2rem 2.4rem;
-	text-decoration: none;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 1.6rem;
+
 	cursor: pointer;
 }
 
@@ -162,14 +164,9 @@ html {
 
 .btn--primary:link,
 .btn--primary:visited {
-	font-size: 1.8rem;
-	font-family: 'Martian Mono', sans-serif;
-	font-weight: 600;
+	background-color: var(--light-salmon-50);
 	color: var(--neutral-900);
 	border: 2px solid var(--neutral-900);
-	background-color: var(--light-salmon-50);
-	line-height: 1.3;
-	letter-spacing: -1px;
 }
 
 .btn--primary:hover,
@@ -180,11 +177,6 @@ html {
 .btn--alternate:link,
 .btn--alternate:visited {
 	color: var(--neutral-0);
-	font-family: 'Martian Mono', sans-serif;
-	font-size: 1.8rem;
-	font-weight: 600;
-	line-height: 1.3;
-	letter-spacing: -1px;
 	border: 2px solid var(--neutral-0);
 }
 
